@@ -11,12 +11,11 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(Long id, String email, String senha, Boolean administrador, Long idPessoa) {
+    public Usuario(Long id, String email, String senha, Boolean administrador) {
         this.id = id;
         this.email = email;
         this.senha = senha;
         this.administrador = administrador;
-        this.idPessoa = idPessoa;
     }
 
     public Long getId() {
